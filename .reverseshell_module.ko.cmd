@@ -1,0 +1,1 @@
+cmd_/home/mrfox131/hui/reverseshell_module.ko := ld -r -m elf_x86_64 --build-id=sha1  -T arch/x86/module.lds -o /home/mrfox131/hui/reverseshell_module.ko /home/mrfox131/hui/reverseshell_module.o /home/mrfox131/hui/reverseshell_module.mod.o;  true
